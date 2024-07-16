@@ -1,0 +1,74 @@
+/* Reset some basic elements for cross-browser compatibility */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+.warnadasar{
+    background-color: rgb(104, 103, 103);
+  }
+.dasar {
+    background-image: url('computer1.png');
+    
+  }
+/* Styling for header and navigation */
+header {
+    background: #5657578e;
+    color: #fff;
+    padding: 1rem 0;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover, .active {
+    color: #ff6347; /* Tomato color for active and hover states */
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+/* Footer styling */
+footer {
+    background: #5657578e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-radius: 10px 10px 0px 0px;
+}
